@@ -1,14 +1,16 @@
-// Step 1: Import React. This lets you use JSX inside your .js file.
+// Step 1: Import React
 import * as React from 'react'
 
-/* Step 2: Define your component. Note that your
-component name should start with a capital letter. */
-const MyComponent = () => {
+// Step 2: Define your component
+const IndexPage = () => {
   return (
-    <h1>Hi, welcome to my site!</h1>
+    <main>
+      <title>Home Page</title>
+      <h1>Welcome to my Gatsby site!</h1>
+      <p>I'm making this by following the Gatsby Tutorial.</p>
+    </main>
   )
 }
 
-/* Step 3: Export your component so it
-can be used by other parts of your app. */
-export default MyComponent
+// Step 3: Export your component
+export default IndexPage
